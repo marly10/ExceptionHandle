@@ -1,0 +1,7 @@
+1.	(5 points)  Why do we not want to simply catch everything by always catching “Exception” (instead of, for instance, NumberFormatException)?
+Because we can refer to the actual problem and attempt to solve/inform why the error occur.
+ It is also very useful for avoid the program from abruptly terminating
+
+
+2.	(5 points) What happens if you try to read beyond the length of a file ? Give it a try to get the answer!
+I get NoSuchElementException
